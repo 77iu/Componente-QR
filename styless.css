@@ -1,6 +1,10 @@
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    
+.attribution { font-size: 11px;
+    text-align: center;
+    color: black;
+    position: sticky;
+    scroll-padding-bottom: -10px;
+}
+.att { color: hsl(178, 100%, 50%); }
     *{
         margin: 0;
         padding: 0;
@@ -25,12 +29,18 @@
         grid-template-rows: repeat(22,1fr); */
        align-items: center;
        justify-content: center;
+       position: relative;
        
     }
     .elemento01{
      background-color: hsl(0, 0%, 100%);
      width: 320px;
      height: 495px;
+     /* position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0; */
      margin: auto;
      border-radius: 20px;
      display: flex;
@@ -60,5 +70,40 @@
         font-weight: 400;
         color: hsl(220, 15%, 55%);
     }
+    .logo77iu{
+        color: red;
+        font-weight: 900;
+        padding: 2px 5px;
+        text-decoration: none;
+        cursor: pointer;
+        background-color: lightseagreen;
+        border-radius:50%;
+        border: 1px solid rgba(255, 255, 255, 0.447);
+        animation: logo_a 2s linear alternate infinite;
+        font-family: sans-serif;
+    
+    }
+    @keyframes logo_a{
+        0%{background-color: lightseagreen;}
+        100%{background-color: white;}
+    }
+    @media only screen and (max-width: 376px){
+        .contenedor{
+            max-width: 1440px;
+            height:100vh;
+            margin: auto;
+            display: grid;
+           background-color:  hsl(212, 45%, 89%);
+            /* background-image: url(design/Captura\ de\ pantalla\ \(557\).png);
+            background-size: cover; */
+            /* grid-template-columns: repeat(100,1fr);
+            grid-template-rows: repeat(22,1fr); */
+           align-items: center;
+           justify-content: center;
+           position: relative;
+           
+        }
+    }
+    
    
   
