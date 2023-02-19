@@ -2,7 +2,12 @@
     text-align: center;
     color: black;
     position: sticky;
-    scroll-padding-bottom: -10px;
+    /* scroll-padding-bottom: -10px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 510px;
+    
 }
 .att { color: hsl(178, 100%, 50%); }
     *{
@@ -13,7 +18,6 @@
     }
     body{
         max-width: 1440px;
-        /* background-color: aqua; */
         margin: auto;
 
     }
@@ -23,10 +27,6 @@
         margin: auto;
         display: grid;
        background-color:  hsl(212, 45%, 89%);
-        /* background-image: url(design/Captura\ de\ pantalla\ \(557\).png);
-        background-size: cover; */
-        /* grid-template-columns: repeat(100,1fr);
-        grid-template-rows: repeat(22,1fr); */
        align-items: center;
        justify-content: center;
        position: relative;
@@ -94,10 +94,6 @@
             margin: auto;
             display: grid;
            background-color:  hsl(212, 45%, 89%);
-            /* background-image: url(design/Captura\ de\ pantalla\ \(557\).png);
-            background-size: cover; */
-            /* grid-template-columns: repeat(100,1fr);
-            grid-template-rows: repeat(22,1fr); */
            align-items: center;
            justify-content: center;
            position: relative;
